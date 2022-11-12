@@ -4,6 +4,9 @@ import ReactDOM from 'react-dom/client';
 //importamos React Router Doom v6
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+//Estilos
+import "./index.css"
+
 //Importar paginas 
 import Login from "./pages/login";
 import Home from "./pages/home";
