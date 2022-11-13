@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 //Estilos 
 import "../styles/login.css"
@@ -17,14 +18,17 @@ function Login () {
                     <form action="">
                         <input type="text" name="usuario" id="" placeholder="Usuario"/>  
                         <input type="password" name="pw" id="" placeholder="Contraseña" />
-                        <button type="submit" className="btn-ingresar">Ingresar</button> 
+                        <button className="btn-ingresar">
+                            <Link to={'/Home'} type="submit" className="link">Ingresar</Link> 
+                        </button>   
                     </form>
                     <hr />
-                    <h3 className="txt-registro">¿No tienes cuenta? Registrate <a href="">¡Aqui!</a></h3>
+                    <h3 className="txt-registro">¿No tienes cuenta? Registrate <span>¡Aqui!</span></h3>
                 </div> 
             </div>    
         </div>
     );
 }
+
 
 export default Login;

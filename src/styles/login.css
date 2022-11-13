@@ -64,11 +64,17 @@
     border-radius: 5px;
     height: 80%;
     font-size: medium;
+    text-decoration: none;
 }
 
 .btn-ingresar:hover {
     background-color: #9148a7ff;
     scale: 1.1;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
 }
 
 hr {

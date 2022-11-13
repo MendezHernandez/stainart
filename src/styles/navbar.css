@@ -1,0 +1,106 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    background-image:linear-gradient(30deg, #9148a7ff, rgb(118, 58, 136), rgb(165, 72, 194));
+    justify-content: space-between;
+    padding: 1vh;
+}
+
+.navbar section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.logo-stainart {
+    height: 100%;
+    width: auto;
+    margin: 0 1vw;
+}
+.navbar form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar form input{
+    height: 55%;
+    border-radius: 1rem 0 0 1rem;
+    border: none;
+    width: 100%;
+    font-size: large;
+}
+
+.navbar form select {
+    height: 60%;
+    border-radius: 0 1rem 1rem 0;
+    font-size: large;
+}
+
+.navbar form button {
+    margin: 0 0 0 1vw;
+    height: 60%;
+    width: 20vw;
+    font-size: large;
+    border-radius: .5rem;
+    border-color: white;
+}
+
+.navbar form button:hover {
+    color: #9148a7ff;
+}
+
+.nombre-usuario {
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+
+.nombre-usuario:hover {
+    color: rgb(212, 205, 255);
+}
+.foto-usuario {
+    font-size: 400%;
+    margin: 0 1vw;
+    color: white;
+}
+
+.menu-hamburguesa {
+    font-size: 400%;
+    color: white;
+}
+
+.menu-hamburguesa:hover {
+    filter: drop-shadow(0px 0px 10px white);
+}
+
+@media (max-width: 800px) {
+    .buscar-p {
+        display: none;
+    }
+
+    .navbar form button {
+        width: max-content;
+    }
+}
+
+@media (max-width: 600px) {
+    .nombre-usuario {
+        display: none;
+    }
+
+    .foto-usuario {
+        display: none;
+    }
+
+    .menu-hamburguesa {
+        font-size: 300%;
+    }
+
+    .logo-stainart {
+        height: 80%;
+    }
+}
