@@ -1,0 +1,29 @@
+.scroll-ambitos {
+    background-color: gainsboro;
+    overflow: auto;
+    white-space: nowrap;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 10px 5px 10px gray;
+    justify-content: center;
+}
+
+.scroll-ambitos a {
+    color: rgb(67, 67, 67);
+    font-size: larger;
+    text-decoration: none;
+    min-width: 15vh;
+    text-align: center;
+}
+
+.scroll-ambitos a:hover {
+    color: #9148a7ff
+}
+
+#link-activo {
+    background: linear-gradient(rgb(153, 0, 255),rgb(255, 0, 140));
+    -webkit-background-clip: text;
+    color: transparent;  
+  
+}
