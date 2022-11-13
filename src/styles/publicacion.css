@@ -1,0 +1,140 @@
+.section-publicaciones {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-publicacion {
+    background-color: white;
+    margin: 3vh 0;
+    display: flex;
+    max-width: 55vw;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.header-publicacion {
+    display: grid;
+    color: gray;
+    grid-template-columns: 10% 1fr 1fr;
+    grid-template-rows: 9vh;
+}
+
+.fecha-publicacion {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0 1vw;
+    text-align: center;
+}
+
+.nombre-autor {
+    position: relative;
+    font-size: larger;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nombre-autor a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.div-icon-autor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-autor {
+    height: 80%;
+    width: 80%;
+    justify-content: center;
+}
+
+.foto-obra {
+    padding: 1%;
+    background-color: gainsboro;
+}
+
+.titulo-obra {
+    text-align: center;
+}
+
+.contenedor-ambito-precio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    height: 4vh;
+    align-items: center;
+}
+
+.ambito-art {
+    color: purple;
+}
+
+.venta {
+    position: relative;
+}
+
+.venta span {
+    color: rgb(19, 169, 19);
+}
+
+.icon-moneda {
+    position: absolute;
+    bottom: 10%;
+    left: -20%;
+}
+
+.footer-publicacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5vh;
+}
+
+.btn-fav {
+    background-color: white;
+    border: none;
+    border-bottom-left-radius: 1rem;
+}
+
+.btn-fav:hover {
+    background-color: gainsboro;
+}
+
+.btn-com {
+    background-color: white;
+    border: none;
+    border-bottom-right-radius: 1rem;
+}
+
+.btn-com:hover {
+    background-color: gainsboro;
+}
+
+@media (max-width: 600px) {
+    .contenedor-publicacion {
+        font-size: small;
+    }
+
+    .venta span {
+        display: none;
+    }
+
+    .icon-moneda {
+        bottom: 10%;
+        left: -50%;
+        color: green;
+    }
+
+    .header-publicacion {
+        grid-template-columns: 10% 2fr 1fr;
+    }
+
+    .contenedor-publicacion {
+        max-width: 95%;
+    }
+}

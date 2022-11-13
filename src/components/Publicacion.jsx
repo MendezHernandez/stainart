@@ -1,23 +1,36 @@
-function Publicacion() {
+import { FaUserCircle } from "react-icons/fa";
+import { BsCoin } from "react-icons/bs"
+
+//imagenes
+import rompiendo from '../imgs/rompiendo_el_tiempo.jpg'
+
+import '../styles/publicacion.css'
+
+const Publicacion = () => {
     return(
-        <div>
-            <img src="" alt="foto_publicador" />
-            <h3>fecha de creacion</h3>
-            <img src="" alt="foto_publicacion" />
-            <h2>Nombre de obra</h2>
-            <hr />
-            <div>
-                <h3>ambito de arte</h3>
-                <span>|</span>
-                <img src="" alt="icono_venta" />
-                <h3><span>Estatus venta: </span>$Precio</h3>    
+        <section className="section-publicaciones">
+            <div className='contenedor-publicacion'>
+                <div className='header-publicacion'>
+                    <div className="div-icon-autor">
+                        <FaUserCircle className="icon-autor" />
+                    </div>
+                    <h3 className="nombre-autor"><a href="">Jonathan Méndez</a></h3>
+                    <h3 className="fecha-publicacion">Creacion: 15/12/2019</h3>
+                </div>
+                <img src={rompiendo} alt="foto_publicacion" className="foto-obra"/>
+                <h1 className="titulo-obra">Rompiendo el tiempo</h1>
+                <hr />
+                <div className="contenedor-ambito-precio">
+                    <h3>Ambito de arte: <span className="ambito-art">Dibujo</span></h3>
+                    <h3 className="venta"><BsCoin className="icon-moneda" /><span>En venta: </span>$2000</h3>    
+                </div>
+                <hr />
+                <div className="footer-publicacion">
+                    <button className="btn-fav">Favoritos</button>
+                    <button className="btn-com">Comentar</button>
+                </div>
             </div>
-            <div>
-                <button>Me gusta</button>
-                <button>Comentar</button>
-                <button>Favoritos</button>
-            </div>
-        </div>
+        </section>
     );
 }
 
