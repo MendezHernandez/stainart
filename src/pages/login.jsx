@@ -16,8 +16,8 @@ function Login () {
                 <div className="tarjeta-login">
                     <h1>Inicia sesion</h1>
                     <form action="">
-                        <input type="text" name="usuario" id="" placeholder="Usuario"/>  
-                        <input type="password" name="pw" id="" placeholder="Contraseña" />
+                        <input type="text" name="usuario" id="1" placeholder="Usuario"/>  
+                        <input type="password" name="pw" id="2" placeholder="Contraseña" />
                         <button className="btn-ingresar">
                             <Link to={'/Home'} type="submit" className="link">Ingresar</Link> 
                         </button>   

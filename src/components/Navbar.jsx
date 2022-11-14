@@ -20,7 +20,7 @@ function Navbar() {
                 <img src={Logo} alt="logo_stainart" className='logo-stainart' />
                 <form action="">
                     <input type="text" placeholder='Una obra, un artista, ¡Buscalo!' />
-                    <select name="select" id="">
+                    <select name="select" id="1">
                         <option value="value1">Obra</option>
                         <option value="value2">Artista</option>
                     </select>

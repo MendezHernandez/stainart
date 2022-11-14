@@ -3,18 +3,21 @@
     overflow: auto;
     white-space: nowrap;
     height: 5vh;
-    display: flex;
-    align-items: center;
     box-shadow: 10px 5px 10px gray;
+    margin-top: 10vh;
+    left: 0;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .scroll-ambitos a {
+    display: inline-block;
     color: rgb(67, 67, 67);
-    font-size: larger;
+    font-size: large;
     text-decoration: none;
     min-width: 15vh;
-    text-align: center;
+    text-align: center
 }
 
 .scroll-ambitos a:hover {
