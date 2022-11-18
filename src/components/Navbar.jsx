@@ -1,9 +1,11 @@
-import { FaUserCircle } from "react-icons/fa";
+
+
 import { BiSearchAlt } from "react-icons/bi";
-import { GiHamburgerMenu } from "react-icons/gi"
+import { HiMenu } from "react-icons/hi"
 
 //imagenes 
 import Logo from '../imgs/logo_stainart.png';
+import FotoPerfil from '../imgs/ojo.jpg';
 
 //Estilos
 import '../styles/navbar.css';
@@ -29,8 +31,8 @@ function Navbar() {
             </section>
             <section>
                 <h1 className="nombre-usuario">Jonathan Méndez</h1>
-                <FaUserCircle className="foto-usuario" />
-                <GiHamburgerMenu className="menu-hamburguesa" onClick={ActiveSidebar} />
+                <img src={FotoPerfil} alt="Foto_perfil" className="foto-usuario" />
+                <HiMenu className="menu-hamburguesa" onClick={ActiveSidebar} />
             </section>
         </nav>
     );

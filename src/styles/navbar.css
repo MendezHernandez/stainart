@@ -68,9 +68,10 @@
     color: rgb(212, 205, 255);
 }
 .foto-usuario {
-    font-size: 350%;
+    height: 100%;
+    width: auto;
     margin: 0 1vw;
-    color: white;
+    border-radius: 100%;
 }
 
 .menu-hamburguesa {

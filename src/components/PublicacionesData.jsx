@@ -5,9 +5,15 @@ import prisas from '../imgs/prisas.jpg'
 import noche from '../imgs/noche.jpg'
 import ojito from '../imgs/ojito.jpg'
 
+//Foto perfil
+import ojo from '../imgs/ojo.jpg'
+import lenin from '../imgs/lennin.jpg'
+import Van from '../imgs/Van.jpg'
+
 export const PublicacionesData = [
     {
         id: 1,
+        FPerfil: ojo,
         autor: 'Jonathan Méndez',
         fecha:  '15/12/2019',
         img: rompiendo,
@@ -19,6 +25,7 @@ export const PublicacionesData = [
     },
     {
         id: 2,
+        FPerfil: lenin,
         autor: 'Lenin Alberto',
         fecha:  'No se la verdad',
         img: prisas,
@@ -28,6 +35,7 @@ export const PublicacionesData = [
     },
     {
         id: 3,
+        FPerfil: ojo,
         autor: 'Jonathan Méndez',
         fecha:  '13/11/2022',
         img: Springtrap,
@@ -39,6 +47,7 @@ export const PublicacionesData = [
     },
     {
         id: 4,
+        FPerfil: Van,
         autor: 'vincent van gogh',
         fecha:  '1889',
         img: noche,
@@ -48,6 +57,7 @@ export const PublicacionesData = [
     },
     {
         id: 5,
+        FPerfil: ojo,
         autor: 'Jonathan Méndez',
         fecha:  '15/10/2021',
         img: ojito,

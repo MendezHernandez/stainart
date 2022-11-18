@@ -19,7 +19,7 @@
 .header-publicacion {
     display: grid;
     color: gray;
-    grid-template-columns: 10% 1fr 1fr;
+    grid-template-columns: 15% 1fr 1fr;
     grid-template-rows: 9vh;
 }
 
@@ -51,9 +51,12 @@
 }
 
 .icon-autor {
-    height: 80%;
-    width: 80%;
+    height: 3rem;
+    width: 3rem;
     justify-content: center;
+    border-radius: 100%;
+    margin-left: 1vw;
+    overflow: hidden;
 }
 
 .foto-obra {
@@ -139,10 +142,6 @@
         bottom: 10%;
         left: -50%;
         color: green;
-    }
-
-    .header-publicacion {
-        grid-template-columns: 10% 2fr 1fr;
     }
 
     .contenedor-publicacion {

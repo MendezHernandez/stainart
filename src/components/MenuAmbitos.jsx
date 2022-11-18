@@ -3,15 +3,15 @@ import '../styles/menuAmbitos.css'
 const MenuAmbitos = (props) => {
     return (
         <div className='scroll-ambitos'>
-            <a href="" id={props.home}>Home</a>
-            <a href="">Artistas</a>
-            <a href="">En venta</a>
-            <a href="">Pintura</a>
-            <a href="">Dibujo</a>
-            <a href="">Acuarela</a>
-            <a href="">Escultura</a>
-            <a href="">Serigrafia</a>
-            <a href="">Mixto</a>
+            <a href="/Home" id={props.home}>Home</a>
+            <a href="/Home">Artistas</a>
+            <a href="/Home">En venta</a>
+            <a href="/Home">Pintura</a>
+            <a href="/Home">Dibujo</a>
+            <a href="/Home">Acuarela</a>
+            <a href="/Home">Escultura</a>
+            <a href="/Home">Serigrafia</a>
+            <a href="/Home">Mixto</a>
         </div>
     );
 }

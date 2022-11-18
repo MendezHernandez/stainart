@@ -25,7 +25,7 @@ const Publicacion = () => {
             <div key={item.id} className='contenedor-publicacion'>
                 <div className='header-publicacion'>
                     <div className="div-icon-autor">
-                        <FaUserCircle className="icon-autor" />
+                        <img src={item.FPerfil} className="icon-autor" />
                     </div>
                     <h3 className="nombre-autor"><a href={'/home'}>{item.autor}</a></h3>
                     <h3 className="fecha-publicacion">Creacion: {item.fecha}</h3>
