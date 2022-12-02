@@ -1,7 +1,5 @@
-import { FaUserCircle } from "react-icons/fa";
 import { BsCoin } from "react-icons/bs"
 import { PublicacionesData } from "./PublicacionesData";
-
 
 import '../styles/publicacion.css'
 
@@ -11,10 +9,10 @@ const Publicacion = () => {
     {PublicacionesData.map((item) =>  {
 
     const StatusVenta = () => {
-        if (item.ventaS === 1) {
+        if (item.statusVenta === 1) {
             return(     
                  
-                <h3 className="venta"><BsCoin className="icon-moneda" /><span>{item.estatusVenta} </span>{item.precio}</h3>  
+                <h3 className="venta"><BsCoin className="icon-moneda" /><span>En venta: </span>{item.precio}</h3>  
             );
         } else {
             <></>
@@ -25,7 +23,7 @@ const Publicacion = () => {
             <div key={item.id} className='contenedor-publicacion'>
                 <div className='header-publicacion'>
                     <div className="div-icon-autor">
-                        <img src={item.FPerfil} className="icon-autor" />
+                        <img alt="foto_perfil" src={item.foto_artista} className="icon-autor" />
                     </div>
                     <h3 className="nombre-autor"><a href={'/home'}>{item.autor}</a></h3>
                     <h3 className="fecha-publicacion">Creacion: {item.fecha}</h3>

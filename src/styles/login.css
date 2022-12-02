@@ -54,26 +54,26 @@
     margin: 3%;
     width: 85%;
     font-size: large;
+    padding: 0 1vw;
 }
 
-.btn-ingresar {
+.link {
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    color: white;
     background-color: gray;
     color: white;
     border-color: gray;
     border-radius: 5px;
-    height: 80%;
     font-size: medium;
     text-decoration: none;
+    padding: .5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.btn-ingresar:hover {
+.link:hover {
     background-color: #9148a7ff;
     scale: 1.1;
-}
-
-.link {
-    text-decoration: none;
-    color: white;
 }
 
 hr {

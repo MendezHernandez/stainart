@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import '../styles/menuAmbitos.css'
 
 const MenuAmbitos = (props) => {
     return (
         <div className='scroll-ambitos'>
-            <a href="/Home" id={props.home}>Home</a>
-            <a href="/Home">Artistas</a>
+            <Link to="/Home" id={props.home}>Home</Link>
+            <Link to="/Artistas" id={props.artistas}>Artistas</Link>
             <a href="/Home">En venta</a>
             <a href="/Home">Pintura</a>
             <a href="/Home">Dibujo</a>

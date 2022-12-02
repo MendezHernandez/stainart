@@ -1,6 +1,6 @@
 .scroll-ambitos {
     background-color: gainsboro;
-    overflow: auto;
+    overflow-y: auto;
     white-space: nowrap;
     height: 5vh;
     box-shadow: 10px 5px 10px gray;
@@ -9,9 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .scroll-ambitos a {
+    transition: .2s ease-in-out;
     display: inline-block;
     color: rgb(67, 67, 67);
     font-size: large;
@@ -21,7 +23,8 @@
 }
 
 .scroll-ambitos a:hover {
-    color: #9148a7ff
+    color: #9148a7ff;
+    scale: 1.08;
 }
 
 #link-activo {

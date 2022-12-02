@@ -18,10 +18,8 @@ function Login () {
                     <form action="">
                         <input type="text" name="usuario" id="1" placeholder="Usuario"/>  
                         <input type="password" name="pw" id="2" placeholder="Contraseña" />
-                        <button className="btn-ingresar">
-                            <Link to={'/Home'} type="submit" className="link">Ingresar</Link> 
-                        </button>   
-                    </form>
+                        <Link to={'/Home'} type="submit" className="link" >Ingresar</Link>     
+                    </form> 
                     <hr />
                     <h3 className="txt-registro">¿No tienes cuenta? Registrate <span>¡Aqui!</span></h3>
                 </div> 

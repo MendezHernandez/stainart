@@ -1,5 +1,3 @@
-
-
 import { BiSearchAlt } from "react-icons/bi";
 import { HiMenu } from "react-icons/hi"
 
@@ -19,7 +17,7 @@ function Navbar() {
     return(
         <nav className='navbar'>
             <section>
-                <img src={Logo} alt="logo_stainart" className='logo-stainart' />
+                <img src={Logo} alt="logo_stainart" className='logo-stainart'/>
                 <form action="">
                     <input type="text" placeholder='Una obra, un artista, ¡Buscalo!' />
                     <select name="select" id="1">

@@ -1,0 +1,27 @@
+.contenedor-barra-artista {
+    background-image: url(../imgs/artistas.jpg);
+    height: 80px;
+    min-height: 60px;
+}
+
+.barra-seccion-artista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.barra-seccion-artista h1 {
+    background: linear-gradient(45deg, rgb(211, 211, 211),rgb(229, 214, 225), rgb(227, 214, 232));
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-size: 2.5rem;
+    backdrop-filter: blur(6px);
+    border-radius: 2rem;
+    padding: .2% 1%; 
+}
+
+.resultados {
+    color: gray;
+    margin-left: 1rem;
+}

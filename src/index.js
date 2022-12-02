@@ -10,6 +10,7 @@ import "./index.css"
 //Importar paginas 
 import Login from "./pages/login";
 import Home from "./pages/home";
+import Aristas from "./pages/artistas";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path='/Home' element={<Home />} />
+        <Route path="/Artistas" element={<Aristas />} />
       </Routes>
     </Router>
   </React.StrictMode>

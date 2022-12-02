@@ -1,0 +1,71 @@
+.seccion-tarjetas-artistas {
+    display: flex;
+    place-content: center;
+    width: 100vw;
+    min-height: 60vh;
+}
+
+.tarjeta-artista {
+    display: grid;
+    background-color: white;
+    width: 300px;
+    min-width: 200px;
+    /* height: max-content; */
+    height: 320px;
+    position: relative;
+    padding-top: 1%;
+    grid-template-rows: 60% 20% 20%; 
+    box-shadow: 5px 5px 5px gray;
+    margin: 0 5%;
+}
+
+.contenedor-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tarjeta-artista img {
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.tarjeta-artista h2 {
+    text-align: center;
+    height: 20%;
+}
+
+.contenedor-boton-seguir {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+    height: 20%;
+}
+
+.contenedor-boton-seguir button, p {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-boton-seguir p {
+    color: purple;
+}
+
+.contenedor-boton-seguir button {
+    background-color: white;
+    border: none;
+    border-right: 1px rgb(214, 214, 214) solid;
+}
+
+.contenedor-boton-seguir button:hover {
+    background-color: rgb(214, 214, 214);
+}
